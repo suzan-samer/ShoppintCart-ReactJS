@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.product h3 {
+  margin: 0 0 0.25rem 0;
+  font-family: 'Shantell Sans';
+}
+.product img {
+  margin: 0 0 0.25rem 0;
+  height: 100px;
+  width: 80px;
+  border-radius: 25px;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.30);
+
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #444343;
+  font-size: 1rem;
+  font-family: 'Shantell Sans';
+}
